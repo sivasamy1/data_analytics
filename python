@@ -1,0 +1,521 @@
+import pandas as pd
+from tabulate import tabulate
+import traceback
+import numpy as np
+import matplotlib.pyplot as plt
+from requests import get
+import requests
+import os
+# empty list
+lst_names = []
+# list with some string values in it
+lst_cities = ["Bangalore", "Chennai", "SFO", "Beijing"]
+# append to existing list
+lst_cities.append("NYC")
+# list with some integer values
+lst_age = [10, 20]
+# append an integer to the existing list
+lst_age.append(30)
+# iterate each value in a list
+for val in lst_cities:
+ print(val)
+# check if a value exists in a list
+if "SFO" in lst_cities:
+ print("yes")
+else:
+ print("no")
+lst_pets = ["dog", "cat"]
+for i, value in enumerate(lst_pets):
+ print(f"At index {i}, the value in the list is {value}")
+# empty set
+set_names = ()
+# Set with some string values in it
+set_cities = ["Bangalore", "Chennai", "SFO", "Beijing"]
+# append to existing list
+set_cities.append("NYC")
+# list with some integer values
+set_age = [10, 20]
+# append an integer to the existing list
+set_age.append(30)
+print(set_cities)
+print(set_age)
+# declare dictionary
+dict_data = {}
+# insert a empty list into the dictionary
+dict_data['pet'] = []
+# append/add a list of dict to the list
+dict_data['pet'].append({
+   'name': 'Dog',
+   'website': 'dog.com',
+   'from': 'San Francisco'
+})
+dict_data['pet'].append({
+   'name': 'Cat',
+   'website': 'hellokitty.com',
+   'from': 'Seattle'
+})
+-Number of rows in a dataframe
+len(df)
+# list having different pet types
+lst_pet_types = ["cat", "dog", "horse"]
+# returns number of elements in the list
+c_pet_types = len(lst_pet_types)
+# prints 3
+print(f"# pet types: {c_pet_types}")
+# Using len() for dictionary
+dict_pets = {"name": "dog", "age": 2}
+# returns number of keys in the dictionary
+c_pets = len(dict_pets)
+# prints 2
+print(f"# pets: {c_pets}")
+dict_pets = {"pets": [{"name": "dog", "age": 2}, {"name": "dog", "age": 2}]}
+dict_p_h = {"pets": [{"name": "dog", "age": 2}, {"name": "dog", "age": 2}],
+           "persons": [{"name": "ram", "age": 12}, {"name": "kumaran", "age": 11}]}
+# returns number of keys in the dictionary
+c_pets, c_humans = len(dict_pets), len(dict_p_h)
+# prints 1
+print(f"# pets: {c_pets} ; # humans: {c_humans}")
+# get only keys from the dictionary
+lst_keys = [*dict_p_h]
+# get only values from the dictionary
+lst_values = [*dict_p_h.values()]
+# prints
+print(f"# keys: {len(lst_keys)} | # values: {len(lst_values)}")
+print(f"keys: {lst_keys} | values: {lst_values}")
+df.columns = ['a', 'b']
+df = df.drop(columns=['column_nameA', 'column_nameB'])
+txt = " 	Moscow 	"
+str_clean = txt.strip()
+print(f"From weather report, {str_clean} is too cold most of the times")
+lst_items = ['rambo','dog','chennai']
+# joins elements of lst_items by delimiter ','
+str = ','.join(lst_items)
+# prints -> rambo,dog,chennai
+print(str)
+# input file path
+in_file = ""
+# read  csv
+df = pd.read_csv(in_file)
+print(df.head(10))
+df.shape
+print(list(df))
+df.dtypes
+df.describe(include='all')
+from tabulate import tabulate
+# custom function for pretty print
+def pretty_print(title, df, n):
+   print(f"\n{title}:")
+   print(tabulate(df.head(n), headers="keys", tablefmt="psql"))
+lst_age = df["age"].unique()
+# also works
+lst_age = df.age.unique()
+df["age"].value_counts()
+# also
+df.groupby("age").CLIENTCODE.nunique()
+data = {'state':["CA","CA","TX","NC", "SC"],'deaths':[6,11,4,5,9]}
+df = pd.DataFrame(data)
+# how many unique death counts are under each of the state
+df2 = df.groupby('state')['deaths']
+        .nunique()
+        .to_frame('deaths')
+        .reset_index()
+df2.head(10)
+# input file
+file_name = 'openpowerlifting-2021-12-10-b420db66.csv'
+# read csv file
+df_in_power = pd.read_csv(file_name)
+# men only
+df_state_male = df_in_power
+                .loc[df_in_power['Sex'] == "M"]\
+                .groupby(['State'])\
+                .size()\
+                .to_frame('count')\
+                .reset_index()
+# sort by count
+df_sorted = df_state_male\
+                .sort_values(by=['count'], ascending=False)
+# write in current folder
+df.to_csv ('./out.csv', index = None, header=True)
+# write in downloads folder
+df.to_csv ('~/Downloads/out.csv', index = None, header=True)
+# create data frame
+df = pd.DataFrame({"date": ["2018-09-24"], "ret":[0.00013123989025119056]})
+# write to csv
+df.to_csv("out.csv", sep=',', escapechar='\\', quoting=csv.QUOTE_ALL, index=None)
+# "date" "ret"
+# "2018-09-24" "0.00013123989025119056"
+import csv
+df.to_csv('out.csv',sep=' ', quoting=csv.QUOTE_NONE)
+# And your resulting csv will look like:
+# "date" "ret"
+# 0 2018-09-24 0.00013123989025119056
+num_person = 10
+print(f"Type of num_person: {type(num_person)}")
+# let's say that df has col_1, col_2, and col_3, but you want only first two columns only
+df_new = df[["col_1", "col_2"]]
+max_age = df["age"].max()
+df.groupby("col_1").size().to_frame("count").reset_index()
+df.groupby("age_range").mean()
+df.groupby("department").sum()
+df.groupby("class").size() # number of students in each class
+df.groupby(["col_1", "col_2"]).mean()
+df.groupby(["col_1", "col_2"]).sum()
+df.groupby(["col_1", "col_2"])["col_3"].mean()
+df_new = df.groupby("state")["num_vacc"].mean().to_frame("count").reset_index()
+df = df.groupby('source') \
+       .agg({'text':'size', 'sent':'mean'}) \
+       .rename(columns={'text':'count','sent':'mean_sent'}) \
+       .reset_index()
+print (df)
+df.groupby('source')['sent'].agg(count='size', mean_sent='mean').reset_index()
+# this may also work
+df[['source','sent']].groupby('source').agg(['count','mean']).reset_index()
+df_agg = df.groupby(["id1", "id2", "id3"])\
+        	.agg({k: ['min', 'max'] for k in ['col']})
+df_agg.columns = df_agg.columns.map('_'.join)
+df_agg = df_agg.reset_index()
+df.groupby('source')['sent1', 'sent2'].agg({'count': 'size', 'means': 'mean'}).reset_index()
+df[0:10]
+# drop all rows with "na" in any of the column
+df.dropna()
+# keep the data frame with valid entries (no "nan") in the same variable "df"
+df.dropna(inplace=True)
+# store in a new df (inplace not used)
+df_new = df.dropna(axis='columns')
+df_new = df.dropna(how='all')
+# simple solution (new df created)
+df_new = df[df['col_1'].notnull()]
+# using dropna() (no new df created)
+df.dropna(subset=['col_1'], how='all', inplace=True)
+df = df.drop_duplicates(['col_name1','col_name2','col_name3'], keep='last')
+for index, row in df.iterrows():
+   curr_authorname = row['author_name']
+   curr_email = row['email']
+dict_stats_count = dict(zip(df.states, df.count))
+lst_pets = [['dog', 1], ['cat', 2], ['fish', 3]]
+df = pd.DataFrame(lst_pets, columns=['animal', 'amount'])
+df.columns = ["new_col1", "new_col2", "new_col3"]
+old_names = ['$a', '$b', '$c', '$d', '$e'] 
+new_names = ['a', 'b', 'c', 'd', 'e']
+df.rename(columns=dict(zip(old_names, new_names)), inplace=True)
+# custom function
+func to_minutes(row):
+   return row["num_hours"] * 60
+# create new column
+df['newcolumn'] = df.apply(to_minutes, axis=1)
+if age == 10 and name = "dog": # conditional "and"
+	print("10")
+elif age == 1 or age = 5: # conditional "or"
+	print("either 1 or 5")
+else:
+      print("else")
+# only those who have exact age of 18 or 20
+df_18_20 = df[df["age"].isin([18, 20])]
+# only those rows that have pet_type either "dog" or "cat"
+df_dog_cat = df[df["pet_type"].isin(["dog", "cat"])]
+str_message = 'Life will be truly wonderful on a wonderful planet.'
+# returns index 19 (find the first occurrence starting from left side)
+print(str_message.find('wonderful'))
+# returns index 34 (find the first occurrence starting from right side)
+print(str_message.rfind('wonderful'))
+# returns index 19
+print(str_message.find('wonder'))
+# find index of "wonder" after index 20; returns index 34
+print(str_message.find('wonder', 20))
+import random
+# generates a random number between 0 and 1
+random_num = random.random()
+print(random_num)
+from random import randrange
+# approach 1: randomly generate a number between 0 and 10
+print(randrange(10))
+print(randrange(0, 10))
+# approach 2:  randomly generate a number between 0 and 10
+import random
+# randomly generate a number between 0 and 10 (includes 10)
+print(random.randint(0, 10))
+# construct line concatenate other variables with delimiter ,
+curr_line = f"{name},{email},{affiliation}," \
+        	f"{coauthors_names},{research}"
+df.where(df["Sex"] == "M")
+# source: geeksforgeeks
+# making boolean series for a team name
+filter = data["Team"]=="Atlanta Hawks"
+# filtering data
+df.where(filter)
+# Multiple filter condition:
+df[(df['col1'] >= 1) & (df['col1'] <=1 )]
+# pick values from a specific columns
+# iloc returns index
+# all rows, columns 0 to 9 (exclude 9); returns numpy array
+arr_num_x = df.iloc[:,0:9].values
+# all rows, column 0; returns numpy array
+arr_num_y = df.iloc[:,0].values
+import traceback
+# path of file
+path_in_pet = "dummy.json"
+try:
+   f = open(path_in_pet, 'r')
+except:
+   traceback.print_exc()
+import os
+
+# directory name that may exist in current directory
+directory = "csv_data"
+# file name that may exist in current directory
+file_name = "data.txt"
+# returns True if dir exists
+print("is dir? " + str(os.path.isdir(directory)))
+# returns True if file_name exists
+print("is file? " + str(os.path.isfile(file_name)))
+# returns True (if dir is either file name or directory name that exists)
+print("does it exist? " + str(os.path.exists(directory)))
+if os.path.isfile(file_name):
+   # returns the size of a file without opening it.
+   print("file size: " + str(os.path.getsize(file_name)))
+else:
+   print("not a file to calculate size")
+
+print("GET THREE DIFFERENT TYPE OF PATHS")
+# declare file path
+path_file = "/Users/lenin/Downloads/data.txt"
+# return basename of path (outputs "data.txt")
+print(os.path.basename(path_file))
+# return directory name of a path
+# output -> "/Users/lenin/Downloads"
+print(os.path.dirname(path_file))
+# return absolute path of a file
+# output -> "/Users/lenin/Downloads/data.txt"
+print(os.path.abspath(path_file))
+import os
+
+# list all files in a directory
+lst_files = os.listdir('/Users/lenin/Downloads/')
+print(lst_files)
+# this approach will not return output
+import subprocess
+subprocess.run(["ls", "-l"])
+# this method will return output
+import os
+# run terminal command "ls -ltr"
+str_list_files = os.popen("ls -ltr").read() # This will run the command and return any output
+print(str_list_files)
+# prints "str"
+print(type(str_list_files))
+{
+"name":"John",
+"age":30,
+"cars":["Ford", "BMW", "Fiat"]
+}
+# Dict to JSON example one
+import json
+# dictionary data to convert as a JSON object
+dict_pets = {1: 'dog', 2: 'cat',
+            3: 'horse', 4: 'elephant',
+            5: 'tiger'}
+# prints "dict"
+print(type(dict_pets))
+# save as JSON object
+js_data = json.dumps(dict_pets)
+# prints "dict"
+print(type(dict_pets))
+# prints with "" for key-value (wrong json)
+print(dict_pets)
+# prints with "" for key-value (correct json)
+print(js_data)
+# Dict to JSON example two
+import json
+# variable "dict_data" declared on top of this cheat sheet
+# prints "dict"
+with open('data.json', 'w') as outfile:
+   # write "dict_data" object content to output file as JSON
+   json.dump(dict_data, outfile)
+import os
+import json
+# json file name with/without path
+path_in_pet = "data.json"
+# check if file exists
+if os.path.exists(path_in_pet):
+   # open in read mode
+   with open(path_in_pet, 'r') as f:
+       # read data
+       dict_data = json.load(f)
+       # prints dict
+       print(type(dict_data))
+       # print content
+       print(dict_data)
+df.astype({'col1': 'int32'}).dtypes
+# int to string
+var age = 20
+print("age is " + str(age))
+# int to float
+salary = 10
+f_salary = float(salary)
+# float to int
+salary = 10.11
+# convert to integer
+i_salary = int(salary)
+from dateutil import parser
+from datetime import datetime
+# approach 1
+dt = parser.parse("Jun 1 2021  1:11PM")
+print(dt)
+# approach 2
+datetime_object = datetime.strptime('Jun 1 2021  1:11PM', '%b %d %Y %I:%M%p')
+print(datetime_object)
+# approach 1
+amount = 20.123456789
+f_amount = float("{:.2f}".format(amount))
+print(f_amount)
+# approach 2
+amount = 20.123456789
+f_amount =  round(amount, 2)
+print(f_amount)
+from datetime import datetime
+# right now time
+_now = datetime.now()
+print(_now)
+# format date time
+_parsed = datetime.strptime(str(_now), "%Y-%m-%d %H:%M:%S.%f")
+print(_now)  # prints same date time as above print
+dt = datetime.strptime("21/11/06 16:30", "%d/%m/%y %H:%M")
+print(dt)  # 2006-11-21 16:30:00
+# get only the value of the year. assigns _year = 2006
+_year = dt.year
+# get only the value of the month. assigns _month = 11
+_month = dt.month
+def to_lowercase(in_str):
+   return str(in_str).lower()
+# text to be converted
+text = "How are you?"
+# convert string to lowercase
+text = to_lowercase(text)
+print(text)
+text = "This is first line \n This is second line"
+print(text)
+# replace new line with blank space
+text_clean = text.replace("\n", "")
+print(text_clean)
+import re
+in_str = "Hi, Where are you from?"
+str_clean = re.sub(r'\W+', ' ', in_str)
+# prints -> Hi Where are you from
+print(str_clean)
+# dictionary that helps to normalise
+dict_norm = {"puppyhood": "dog",
+         	"puppyish": "dog",
+         	"puppylike": "dog"
+        	}
+# dictionary that needs transformation in its value
+dict_species = {"caesar": "puppyhood", "ryan": "dog", "leela": "cat"}
+# create new dictionary to hold the normalised output
+dict_species_norm = {}
+# iterate items in dict
+for key, value in dict_species.items():
+	# if value exists in key of dict_norm
+	if value in dict_norm.keys():
+    	   dict_species_norm[key] = dict_norm[value]
+	else:
+    	   dict_species_norm[key] = value
+# prints -> {"caesar": "dog", "ryan": "dog", "leela": "cat"}
+print(dict_species_norm)
+df["age_normalized"] = df["age"] / df["age"].max()
+import pandas as pd
+from tabulate import tabulate
+# first df
+df_1 = pd.DataFrame({'id': ['A01', 'A02', 'A03', 'A04'],
+                   'Name': ['Dog', 'Cat', 'Eagle', 'Peacock']
+                    })
+pretty_print("df_1:", df_1, 10)
+# second df
+df_2 = pd.DataFrame({
+                   'id' : ['A01', 'A06', 'A02', 'A07'],
+                   'City': ['SFO', 'Chennai', 'NYC', 'Bangalore'],
+                   'Age': ['12', '13', '14', '12']})
+pretty_print("df_2:", df_2, 10)
+# outer join => outputs all rows from both dataframes
+df_new = pd.merge(df_1, df_2, on='id', how='outer')
+pretty_print("merged outer:", df_new, 10)
+# inner join (equi join) => outputs common intersect
+df_new = pd.merge(df_1, df_2, on='id', how='inner')
+pretty_print("merged inner:", df_new, 10)
+
+# different column name 
+df_new = pd.merge(df_1, df_2, left_on='', right_on='', how='inner')
+import pandas as pd
+from tabulate import tabulate
+# first df
+df_1 = pd.DataFrame({'id': ['A01', 'A02', 'A03', 'A04'],
+                   'Name': ['Dog', 'Cat', 'Eagle', 'Peacock']
+                    })
+pretty_print("df_1:", df_1, 10)
+# second df
+df_2 = pd.DataFrame({
+                   'id' : ['A01', 'A06', 'A02', 'A07'],
+                   'City': ['SFO', 'Chennai', 'NYC', 'Bangalore'],
+                   'Age': ['12', '13', '14', '12']})
+pretty_print("df_2:", df_2, 10)
+# LEFT JOIN => takes all the values from df1, if it exists on the df2 puts it values, otherwise nan
+df_new = df_1.merge(df_2, left_on=['id'], right_on = ['id'], how='left')
+pretty_print("left join:", df_new, 10)
+# find rows in df2 which are not in df1
+df_na = df_new[df_new["City"].isna()]
+pretty_print("rows in df2 which are not in df1:", df_na, 10)
+import glob
+
+os.chdir( '/path/to/main/dir' )
+# find list of files with .csv extension
+result = glob.glob( '*/**.csv' )
+print( result )
+os.rename("old_name.csv", "new_name.csv")
+from google.colab import drive
+# NOTE: this will pop up asking for google login permission
+drive.mount('/content/drive')
+# linux command to list the files under linux running 
+# get a list of tables from the URL
+lst_tables = pd.read_html("https://scholar.google.com/citations?user=6JeebN0AAAAJ&hl=en")
+# iterate and print each table
+for i, table in enumerate(tables):
+pretty_print(f"Table {str(i)}", table, 20)
+df_out = df.fillna(method = "ffill")
+# men only filter. size() gives number of rows in the data frame
+df_state_male = df.loc[df['Sex'] == "M"]\
+                 .groupby(['State'])\
+                 .size()\
+                 .to_frame('count')\
+                 .reset_index()
+# sort by count
+df_sorted = df_state_male\
+                 .sort_values(by=['count'], ascending=False)
+# gives rank as 1, 2, 3, ...
+df_sorted['rank'] = df_sorted['count'].rank(ascending=False)
+# gives percentile rank as 1, 0.9923, 0.984615, ...
+df_sorted['pct_rank'] = df_sorted['count'].rank(pct=True)
+df_sorted.head(10)
+%%time
+df = pd.read_csv("air_quality_no2.csv", index_col=0, parse_dates=True)
+from dateutil import parser
+from datetime import datetime
+import timeit
+
+def fn_1():
+   dt = parser.parse("Jun 1 2005  1:33PM")
+def fn_2():
+   datetime_object = datetime.strptime('Jun 1 2005  1:33PM', '%b %d %Y %I:%M%p')
+
+print(timeit.timeit(stmt=fn_1, number=10**5)) # slow
+print(timeit.timeit(stmt=fn_2, number=10**5)) # faster
+from alive_progress import alive_bar
+import time
+# for loop runs for set of below four values
+for x in 1000, 1500, 700, 0:
+  # scope the alive bar for the wrapped for loop inside it
+  with alive_bar(x) as bar:
+      for i in range(1000):
+          # sleep for .005 seconds
+          time.sleep(.005)
+          # print the bar
+          bar()
+
+
+
