@@ -1,0 +1,101 @@
+Index,Rank,Lifter,Username,Userid,Text_colour,Unknown0,Unknown1,Fed,Date,Country,State,unknown3,Sex,Equip,Age,Entry,Class,Weight,Squat,Bench,Deadlift,Total,Dots
+0,1,Kristy Hawkins,kristyhawkins,kristy_hawkins,green,USA,USA-CA,WRPF,2023-10-28,USA,VA,wrpf-usa/23e1,F,Wraps,43,Open,74,75,310,152.5,262.5,725,711.19
+1,2,Marianna Gasparyan,mariannagasparyan,power_mayan,null,USA,null,WRPF,2019-04-27,USA,CA,wrpf-usa/1902,F,Wraps,30,Open,56,56,260,132.5,220,612.5,709.96
+2,3,Hunter Henderson #1,hunterhenderson1,huntermhenderson,null,USA,USA-MO,WRPF,2021-04-24,USA,CA,wrpf-usa/2109,F,Wraps,26,Open,74.3,75,295,147.5,260,702.5,687.63
+3,4,Chakera Ingram,chakeraingram,c.c_ingram,null,USA,null,USPA,2019-08-03,USA,TX,uspa/1539,F,Wraps,24,Open,80.4,82.5,290,170,270,730,686.14
+4,5,Stefanie Cohen,stefaniecohen,steficohen,bold red,USA,null,WRPF,2019-04-27,USA,CA,wrpf-usa/1902,F,Wraps,27,Open,54.4,56,230,110,240,580,685.45
+5,6,Denise Herber,deniseherber,deniseherber_,null,Germany,null,WRPF,2024-04-06,USA,FL,wrpf-usa/2443,F,Wraps,33,Pro FW-O,72.4,75,255,142.5,291.5,689,683.64
+6,7,Samantha Rice,samantharice,quadslikemom,null,USA,null,WRPF,2023-10-28,USA,VA,wrpf-usa/23e1,F,Wraps,33,Open,82.4,82.5,280,157.5,291,728.5,676.54
+7,8,Stacy Burr,stacyburr,bamaburr,null,USA,null,XPC,2019-03-02,USA,OH,xpc/1901,F,Wraps,27,Pro,66.9,67.5,256.2,145.1,249.4,650.9,675.19
+8,9,Chleo Van Wyk,chleovanwyk,chleo_v_wyk,null,Australia,null,USPA,2019-08-03,USA,TX,uspa/1539,F,Wraps,28,Open,78.6,82.5,280,160,265,705,670.20
+9,10,Colton Engelbrecht,coltonengelbrecht,col_powerlifting,null,South Africa,null,WPC-SA,2024-06-08,South Africa,null,wpc-sa/2407,M,Wraps,23,M_OCR_APF,109.8,110,440,245,435,1120,663.61
+10,11,John Haack,johnhaack,bilbo_swaggins181,null,USA,USA-WI,WRPF,2024-04-06,USA,FL,wrpf-usa/2443,M,Raw,31,Pro MR-O,93.4,100,365,252.5,426,1043.5,662.39
+11,12,Sarah Rainbow,sarahrainbow,sarah_rainbow,null,Australia,null,WRPF-AUS,2024-03-23,Australia,TAS,wrpf-aus/2401,F,Wraps,28,S24-39,100.7,110,315,177.5,282.5,775,659.56
+12,13,Ashley Garcia #1,ashleygarcia1,bad_ash5,null,USA,USA-TX,WRPF,2021-04-24,USA,CA,wrpf-usa/2109,F,Wraps,39,Open,73.7,75,270,142.5,257.5,670,658.67
+13,14,Yury Belkin,yurybelkin,belkin_one_power,null,Russia,null,USA-UA,2019-08-30,USA,CA,wrpf-usa/bob6,M,Wraps,28,Pro Open,100,100,416,235,415,1066,656.14
+14,15,Brianny Terry,briannyterry,briannyt,null,USA,USA-NV,WRPF,2023-10-28,USA,VA,wrpf-usa/23e1,F,Wraps,27,Open,75,75,240,140,291,671,653.54
+15,16,Chad Penson,chadpenson,kingpensonlifts,red_to_white,USA,USA-CA,WRPF,2021-04-24,USA,CA,wrpf-usa/2109,M,Wraps,28,Open,88.5,90,400,232.5,365,997.5,650.53
+16,17,Jaymi Morris,jaymimorris,jaymiijigsaw,null,Australia,null,ProRaw,2024-03-16,Australia,VIC,proraw/014,F,Wraps,30,F-OR,85.7,90,275,157.5,275,707.5,644.91
+17,18,Eva Dunbar,evadunbar,evalaurabelle_ifbbpro,null,Canada,null,RPS,2018-03-10,USA,NC,rps/1810,F,Wraps,36,Pro Open,66.9,67.5,243.5,143,235,621.5,644.68
+18,19,Brittany Bowles,brittanybowles,brittany_shack,null,USA,USA-NC,WRPF,2023-10-28,USA,VA,wrpf-usa/23e1,F,Wraps,34,Open,59.7,60,227.5,132.5,217.5,577.5,642.22
+19,20,Jennessa Labbate,jennessalabbate,jennessaann,blue_to_green,USA,USA-CA,WRPF,2021-04-24,USA,CA,wrpf-usa/2109,F,Wraps,26,Open,66.3,67.5,227.5,132.5,255.5,615.5,642.10
+20,21,Keeta Crisp,keetacrisp,keetamaree,null,Australia,null,WRPF-AUS,2022-09-11,Australia,NSW,wrpf-aus/2205,F,Wraps,28,FR-O,74.9,75,262.5,140,255,657.5,640.84
+21,22,Jeanine Whittaker,jeaninewhittaker,jwhitt206,null,USA,null,SPF,2017-04-22,USA,OH,spf/1716,F,Wraps,44,Open,81.8,82.5,276.6,140.6,263,680.3,633.99
+22,23,Zahir Khudayarov,zahirkhudayarov,zahirkhudayarov,null,null,null,FPO,2015-09-26,Finland,null,fpo/1502,M,Wraps,32,Open,125,125,472.5,260,380,1112.5,630.52
+23,24,Blake Lehew,blakelehew,deadliftingorangutan,null,USA,USA-TX,WRPF,2022-07-29,USA,VA,wrpf-usa/2224,M,Wraps,27,Open,82.4,82.5,330,215,385,930,630.41
+24,25,Crystal Tate,crystaltate,ctate87,null,USA,null,XPC,2017-03-03,USA,OH,xpc/1701,F,Wraps,29,Pro HW,89,90,290.3,136,272.1,698.5,625.57
+25,26,Derek Thistlethwaite,derekthistlethwaite,deathgrip.derek,null,USA,USA-TX,WRPF,2024-06-08,USA,TX,wrpf-usa/2486,M,Raw,24,Open,111.4,125,400,245,415,1060,624.85
+26,27,Jamal Browner,jamalbrowner,jamal_b15,null,USA,USA-TX,USPA,2022-09-24,USA,MO,uspa/2022-163,M,Raw,27,Open,109.4,110,370,227.5,455,1052.5,624.65
+27,28,Andrew Hause,andrewhause,daspowerhause,null,USA,USA-NC,WRPF,2022-07-29,USA,VA,wrpf-usa/2224,M,Wraps,24,Open,131,140,460,247.5,410,1117.5,624.30
+28,29,Jen Hazzard,jenhazzard,boones_mom,null,USA,null,IPA,2023-04-22,USA,NY,ipa/2307,F,Wraps,37,Pro Open,57.1,60,195.9,108.8,240.4,545.2,623.58
+29,30,Naomi Sheppard,naomisheppard,naomi.phoenixperformance,null,England,null,WRPF,2022-02-12,USA,FL,wrpf-usa/2203,F,Wraps,30,Open,66.9,67.5,262.5,122.5,215,600,622.65
+30,31,Raymond Phillips,raymondphillips,rayphillips1828,null,USA,USA-NJ,RPS,2024-01-27,USA,NJ,rps/2407,M,Raw,38,Pro Open,63.6,67.5,276.6,163.2,331.1,771.1,620.75
+31,32,Kody Blazek,kodyblazek,deadliftingandstuff,null,USA,null,USPA,2019-08-03,USA,TX,uspa/1539,M,Wraps,33,Open,81.2,82.5,337.5,220,350,907.5,620.35
+32,33,Jawon Garrison,jawongarrison,majin_avenger2.0,red,USA,USA-AL,WRPF,2023-10-28,USA,VA,wrpf-usa/23e1,M,Raw,35,Open,82.5,82.5,353,230,332.5,915.5,620.15
+33,34,Angelina Bennett,angelinabennett,captain.angelina,null,USA,USA-MD,WRPF,2023-10-28,USA,VA,wrpf-usa/23e1,F,Wraps,30,Open,55.6,56,202.5,122.5,205,530,617.26
+34,35,Alisha Luna,alishaluna,a_l_u_n_a,null,USA,USA-CO,WRPF,2024-04-06,USA,FL,wrpf-usa/2443,F,Wraps,29,Pro FW-O,51.5,52,190,102.5,210.5,503,617.25
+35,36,Dave Richardson #1,daverichardson1,k18.dsr,null,England,null,Ireland-UA,2024-04-20,Ireland,null,ireland-ua/2402,M,Wraps,31,Clash Of Titans,123.6,,405,247.5,432.5,1085,617.14
+36,37,Chantal Marais,chantalmarais,chantal_marais88,null,null,null,WRPF-AUS,2020-12-05,Australia,NSW,wrpf-aus/2004,F,Wraps,32,FR-O,74.3,75,280,120,230,630,616.67
+37,38,Alana Hynes D\'Aquino,alanahynesdaquino,alana_hynes_daquino,null,Australia,null,ProRaw,2024-03-16,Australia,VIC,proraw/014,F,Wraps,23,F-OR,74.3,75,240,137.5,252.5,630,616.67
+38,39,Maliek Derstine,maliekderstine,maliekderstine,null,USA,USA-TX,WRPF,2021-04-24,USA,CA,wrpf-usa/2109,M,Wraps,32,Open,81.2,82.5,360,220,320,900,615.22
+39,40,Austin Perkins #1,austinperkins1,the74kg,null,USA,USA-MS,USAPL,2023-09-14,USA,TN,usapl/NS-2023-03-K,M,Raw,23~,MR-O,74.2,75,313.5,200,337.5,851,614.54
+40,41,April Mathis,aprilmathis,null,null,USA,null,APF,2017-04-01,USA,FL,apf/1701,F,Wraps,29,F_OCR_APF,125,90+,320,200,252.5,772.5,613.11
+41,42,Chloe Lansing,chloelansing,chlo.mae.l,blue_to_lightblue,USA,USA-IA,WRPF,2021-04-24,USA,CA,wrpf-usa/2109,F,Wraps,29,Open,66.8,67.5,232.5,110,247.5,590,612.80
+42,43,Eric Lilliebridge,ericlilliebridge,ericlilliebridge,null,USA,null,UPA,2016-07-16,USA,IA,upa/1618,M,Wraps,26,MOR,139,140,477.5,250,387.5,1115,612.28
+43,44,Agata Sitko,agatasitko,ja.gata_sitko,null,Poland,null,IPF,2024-02-10,UK,null,ipf/2401,F,Raw,21~,Open,68.9,,197.5,154,248.5,600,612.20
+44,45,Boris Tsvetkov #1,boristsvetkov1,boris.strength,null,Bulgaria,null,Ireland-UA,2023-08-19,Ireland,null,ireland-ua/2300,M,Wraps,25,Male Pro,104.4,,400,232.5,380,1012.5,611.93
+45,46,Rostislav Petkov,rostislavpetkov,ross_petkov,null,USA,USA-NV,WRPF,2021-04-24,USA,CA,wrpf-usa/2109,M,Wraps,32,Open,80.8,82.5,350,202.5,340,892.5,611.84
+46,47,Jessica Hause,jessicahause,misspowerhause,purple_to_green,USA,USA-NC,SPF,2019-10-26,USA,VA,spf/1942,F,Wraps,30~,Open,57.6,60,231.3,108.8,197.3,537.5,611.56
+47,48,Susan Salazar,susansalazar,supers2o,lightblue,USA,USA-TX,USPA,2017-04-15,USA,CA,uspa/0820,F,Wraps,41,Open,58.5,60,210,117.5,215,542.5,611.16
+48,49,Lily Riley,lilyriley,null,null,Australia,null,WRPF,2024-04-06,USA,FL,wrpf-usa/2443,F,Wraps,28,Pro FW-O,78.6,82.5,285,127.5,230,642.5,610.79
+49,50,Sarah Lewis #1,sarahlewis1,sarah.lewis_,null,USA,USA-TN,USPA,2019-08-31,USA,TN,uspa/1562,F,Raw,33,Open,68.7,75,220,137.5,240,597.5,610.66
+50,51,Patrick Morrison #1,patrickmorrison1,manletmorrison,null,Australia,null,WRPF-AUS,2023-10-28,Australia,NSW,wrpf-aus/2307,M,Wraps,33,Open,89.4,90,400.5,177.5,362.5,940.5,610.19
+51,52,Blake Tobin,blaketobin,blake_tobin_,null,null,null,IPA,2021-11-20,USA,PA,ipa/2107,F,Wraps,29,Pro Open,55.2,56,201.8,115.6,204.1,521.6,610.08
+52,53,Prescillia Bavoil,prescilliabavoil,lya_powerlift,null,France,null,IPF,2024-02-10,UK,null,ipf/2401,F,Raw,30,Open,66.4,,225,122.5,237.5,585,609.42
+53,54,Barbara Lee #1,barbaralee1,msbarbellbarbie,null,USA,USA-GA,WRPF,2022-07-29,USA,VA,wrpf-usa/2224,F,Wraps,40,Open,74.4,75,240,127.5,255,622.5,608.89
+54,55,Taylor Atwood,tayloratwood,t_atwood,null,USA,USA-NY,USAPL,2021-06-14,USA,FL,usapl/NS-2021-03-D,M,Raw,32~,MR-O,73.6,74,303,195,340.5,838.5,608.77
+55,56,Tom Martin #1,tommartin1,tommartinpl,null,England,null,WRPF,2018-08-24,USA,CA,wrpf-usa/bob5,M,Wraps,30,Pro MW-O,99.3,100,382.5,200,402.5,985,608.14
+56,57,Laura Tedeschi,lauratedeschi,pocketrocket_booom,null,Australia,null,WRPF-AUS,2022-09-11,Australia,NSW,wrpf-aus/2205,F,Wraps,31,FR-O,59.4,60,235,110,200,545,608.02
+57,58,Andrey Malanichev,andreymalanichev,andrey_malanichev,null,Russia,null,RUPC,2014-02-07,USA,FL,rupc/2014-rum7,M,Wraps,37,M-HW,145.4,140+,460,260,400,1120,607.39
+58,59,Dmitry Nasonov,dmitrynasonov,nasonov.dmitriy,null,Russia,null,WRPF,2020-12-17,Russia,MOW,wrpf/2049,M,Wraps,28,Pro Open,82.3,82.5,325,180,405,895,607.10
+59,60,Jessica Springer,jessicaspringer,springerj46,null,USA,null,APF,2021-04-10,USA,OH,apf/2111,F,Wraps,,F_OCR_APF,118.2,90+,278.9,188.2,285.7,752.9,606.76
+60,61,Jenn Rotsinger,jennrotsinger,jrotsinger,rainbow,USA,USA-FL,USPA,2019-02-08,USA,FL,uspa/1357,F,Wraps,40,Open,51.3,52,190,100.5,202.5,493,606.63
+61,62,Daniel Bell #1,danielbell1,dbell_74,null,USA,null,WRPF,2021-02-20,USA,FL,wrpf-usa/2103,M,Wraps,34,Open,180,140+,500,272.5,410,1182.5,606.47
+62,63,Luke Tolman,luketolman,luke_tolman_powerlifting,null,England,null,BPU,2024-04-27,England,null,bpu/2414,M,Wraps,25,M_OCR_BPU,107.5,110,377.5,267.5,370,1015,606.46
+63,64,Sharon Eggleton,sharoneggleton,princess_of_iron,null,England,null,WRPF-UK,2024-05-04,England,null,wrpf-uk/2402,F,Wraps,44,Open,67.1,67.5,215,130,240,585,606.03
+64,65,Haley Hill,haleyhill,lil_swole2,null,USA,USA-MO,USPA,2021-10-23,USA,IL,uspa/2264,F,Wraps,24,Open,59.8,60,207.5,125,212.5,545,605.43
+65,66,Shane Haller,shanehaller,shanehaller,null,USA,USA-FL,WRPF,2024-04-06,USA,FL,wrpf-usa/2443,M,Wraps,31,Pro MW-O,139,140,430,255,417.5,1102.5,605.41
+66,67,Jen Smith #1,jensmith1,powerliftersdiary,null,Australia,null,AusPL,2020-03-23,Australia,QLD,auspl/2001,F,Wraps,26,Open,59.9,60,207.5,127.5,210,545,604.79
+67,68,Zac Meyers,zacmeyers,thehulkmeyers,null,USA,USA-MD,WRPF,2023-06-17,USA,MD,wrpf-usa/2365,M,Raw,29,Open,129.1,140,405,285,387.5,1077.5,604.61
+68,69,Jaclyn Cornwell,jaclyncornwell,jaclynrcornwell,null,USA,USA-OH,APF,2021-04-10,USA,OH,apf/2111,F,Wraps,33,F_OCR_APF,67.4,67.5,258.5,113.4,213.1,585.1,604.60
+69,70,Larry Williams #1,larrywilliams1,larrywheels,null,USA,null,XPC,2020-03-07,USA,OH,xpc/2001,M,Raw,25,Pro,128.6,140,394.6,292.5,387.8,1075,603.87
+70,71,Petr Petr\xc3\xa1\xc5\xa1,petrpetras,petras.petr1160,null,Czechia,null,GPC-GUPU,2020-12-05,Ukraine,null,gpc-gupu/2001,M,Wraps,36,M-O,170,140+,470,290,400,1160,603.66
+71,72,Carola Garra,carolagarra,carolagarra,null,Italy,null,IPF,2024-02-10,UK,null,ipf/2401,F,Raw,29~,Open,67.1,,220,150,212.5,582.5,603.08
+72,73,Danny Grigsby,dannygrigsby,dan_grigs,null,USA,USA-OR,WRPF,2023-03-25,USA,null,wrpf-usa/2313,M,Raw,29,Open,109.8,110,352.5,197.5,467.5,1017.5,603.05
+73,74,Hanna Luukkonen,hannaluukkonen,hannaamanda_,null,Finland,null,FPO,2023-05-13,Finland,null,fpo/2302,F,Wraps,22,J20-23,72.6,75,237.5,130.5,240,608,602.59
+74,75,Jason Legrand,jasonlegrand,jaselegrand,neongreen,USA,null,365Strong,2018-04-20,USA,NC,365strong/1802,M,Wraps,24,Open,107.9,110,412.5,220,377.5,1010,602.50
+75,76,Rondel Hunte,rondelhunte,deadlift_lord868,null,null,null,USAPL,2023-09-14,USA,TN,usapl/NS-2023-03-K,M,Raw,26~,MR-G,119.5,125,385,262.5,397.5,1045,600.92
+76,77,Kevin Oak,kevinoak,oakstrong,null,USA,null,WRPF,2016-08-19,USA,CA,wrpf-usa/bob3,M,Wraps,30,Pro MW-O,99.8,100,390,227.5,358,975.5,600.75
+77,78,Fernando Arias,fernandoarias,null,null,USA,USA-PA,WRPF,2023-10-28,USA,VA,wrpf-usa/23e1,M,Wraps,27,Open,132,140,412.5,237.5,427.5,1077.5,600.59
+78,79,Phillip Herndon,phillipherndon,phillip_herndon,null,USA,null,IPA,2023-06-25,USA,PA,ipa/2312,M,Wraps,28,Pro Open,119.4,125,453.5,226.8,362.8,1043.2,600.10
+79,80,Mariya Panferova,mariyapanferova,pinochka77,null,Russia,null,IPL,2017-04-20,Russia,MOW,rpu/1701,F,Wraps,39,Open,71.6,75,250,135,220,600,599.19
+80,81,Ben Pollack,benpollack,phdeadlift,null,USA,USA-TX,SPF,2017-11-11,USA,CA,spf/1752,M,Wraps,30,Open,89.7,90,362.5,192.5,370,925,599.05
+81,82,Kalle R\xc3\xa4s\xc3\xa4nen,kallerasanen,kalle_rs,finland,Finland,null,IPA,2019-05-25,Finland,null,fpo/1903,M,Wraps,28,Open,89.9,90,390.5,192.5,342.5,925.5,598.76
+82,83,Craig Malkowicz,craigmalkowicz,gotmalk_,null,USA,USA-NJ,USPA,2022-02-19,USA,NJ,uspa/2405,M,Wraps,27,Open,92.8,100,345,200,395,940,598.70
+83,84,Egor Musienko,egormusienko,egor_musienko_,null,Russia,null,WPA-RUS,2019-12-21,Russia,KHA,wpa-rus/1901,M,Wraps,26,Open,109.1,110,390,227.5,390,1007.5,598.57
+84,85,Jade Jacob,jadejacob,jade.jacobb,null,France,null,IPF,2024-02-10,UK,null,ipf/2401,F,Raw,22~,Open,56.5,,188,100,231.5,519.5,598.15
+85,86,Cailer Woolam,cailerwoolam,doctor.deadlift,null,USA,USA-TX,SPF,2019-11-09,USA,CA,spf/1946,M,Raw,24,Open,97.8,110,307.5,222.5,432.5,962.5,598.02
+86,87,Ceejay Byam,ceejaybyam,ifbbceejaygarner,null,Canada,null,WRPF,2024-04-06,USA,FL,wrpf-usa/2443,F,Raw,39,Submasters 35-39,74.1,75,230,150,230,610,597.73
+87,88,Jesse Norris,jessenorris,jessenorr,null,USA,null,SPF,2015-11-07,USA,CA,spf-archive/0406,M,Raw,22,Light,89.7,90,347.5,200,375,922.5,597.43
+88,89,Jeremy Avilla,jeremyavilla,jeremyavilla,null,USA,null,WRPF,2018-08-24,USA,CA,wrpf-usa/bob5,M,Wraps,30,Pro MW-O,98.8,100,365,197.5,402.5,965,597.11
+89,90,Tracy Johnson #9,tracyjohnson9,null,null,null,null,SPF,2022-12-03,USA,NC,spf/2229,M,Wraps,,Masters 45-49,48,48,190.5,145.1,240.4,576,597.04
+90,91,Nicolaas du Preez,nicolaasdupreez,nicolaas_du_preez,null,South Africa,null,Ireland-UA,2024-04-20,Ireland,null,ireland-ua/2402,M,Wraps,29~,Clash Of Titans,129.5,,427.5,245,392.5,1065,597.03
+91,92,Amanda Lawrence #1,amandalawrence1,miss.amanda.ann,null,USA,null,IPF,2024-02-10,UK,null,ipf/2401,F,Raw,26,Open,83.5,,249.5,135,262.5,647,597.00
+92,93,Meghan Scanlon,meghanscanlon,megscanlift,null,USA,null,IPF,2024-06-15,Lithuania,null,ipf/2404,F,Raw,36,Open,62.6,63,202.5,140,210,552.5,596.54
+93,94,Andrey Belyaev #1,andreybelyaev1,null,null,Russia,null,BB,2010-12-18,Russia,MOW,bb/1001,M,Wraps,27,Pro,95.7,110,345,250,355,950,596.34
+94,95,Nick Ramey,nickramey,nick_ramey,null,USA,USA-AR,SPF,2020-06-27,USA,AR,spf/2013,M,Wraps,28,Open,99.7,100,409.1,204.5,354.2,967.9,596.34
+95,96,Ranson Lee,ransonlee,ransonlee,royalblue,USA,USA-NC,SPF,2019-11-09,USA,CA,spf/1946,M,Wraps,28,Open,99.7,110,385,235,347.5,967.5,596.29
+96,97,Natalie Richards #1,natalierichards1,nat_lifting,null,USA,null,IPF,2024-02-10,UK,null,ipf/2401,F,Raw,25~,Open,56.3,,186.5,110,220,516.5,596.16
+97,98,Dan Green,dangreen,dangreenpowerlifter,green,USA,null,ProRaw,2013-11-16,Australia,VIC,proraw/005,M,Wraps,30,M-OR,109,110,385,237.5,380,1002.5,595.81
+98,99,Landri Peden,landripeden,landri_liftsalot,null,USA,USA-OH,WRPF,2024-04-06,USA,FL,wrpf-usa/2443,F,Wraps,38,Pro FW-O,74.6,75,237.5,120,252.5,610,595.81
+99,100,Andrew Herbert,andrewherbert,herbietheluvbug,purple,USA,USA-CA,SPF,2019-11-09,USA,CA,spf/1946,M,Wraps,37,Open,109,110,427.5,215,360,1002.5,595.72
