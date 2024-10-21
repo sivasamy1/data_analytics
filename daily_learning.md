@@ -1,3 +1,8 @@
+#### 21-OCT-2024
+1. Completed part 2 of miniproject 4(airports)
+2. Updated google sheets
+#### 20-OCT-2024
+1. Working on part 2 of miniproject 4(airports) question 2
 #### 19-OCT-2024
 1. Working on part 2 of miniproject 4(airports)
 #### 18-OCT_2024
