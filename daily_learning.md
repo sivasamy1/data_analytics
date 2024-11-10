@@ -1,3 +1,5 @@
+#### 07-NOV-2024
+1. Completed part 3 of miniproject 4(world food production and medical data synthetic)
 #### 21-OCT-2024
 1. Completed part 2 of miniproject 4(airports)
 2. Updated google sheets
