@@ -1,3 +1,7 @@
+#### 18-NOV-2024
+1. Completed upto 4th question in miniproject 6(ebola and song)
+2. Renamed file names in repository for easy understanding
+3. Removed unnecessary output in older projects
 #### 11-NOV-2024
 1. Completed miniptoject 5(forest fire and employee salary)
 #### 09-NOV-2024
