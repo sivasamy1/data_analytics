@@ -1,5 +1,7 @@
-#### 20-NOV-2024
+#### 22-NOV-2024
 1. Completed question 6 of miniproject 6(ebola and song)
+#### 20-NOV-2024
+1. Completed question 5 of miniproject 6(ebola and song)
 2. Started miniproject 7 (Open crime UK)
 #### 18-NOV-2024
 1. Completed upto 4th question in miniproject 6(ebola and song)
