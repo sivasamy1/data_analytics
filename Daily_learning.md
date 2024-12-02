@@ -1,4 +1,7 @@
-#### 1-DEC-2024
+#### 02-DEC-2024
+1. Completed 7th question of miniproject 6(ebola).
+2. Completed part 1 of miniproject 6(ebola).
+#### 01-DEC-2024
 1. Rectified the problem in question 5 of miniproject 6(ebola).
 #### 30-NOV-2024
 1. Working on 5th question of miniproject 6 as it gives different output 
