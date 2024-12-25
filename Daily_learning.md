@@ -1,3 +1,9 @@
+#### 25-DEC-2024
+1. Started part 3 of miniproject 6(song)
+#### 24-DEC-2024
+1. Completed part 2 of miniproject 6(song)
+#### 23-DEC-2024
+1. Started part 2 of miniproject 6(song)
 #### 02-DEC-2024
 1. Completed 7th question of miniproject 6(ebola).
 2. Completed part 1 of miniproject 6(ebola).
