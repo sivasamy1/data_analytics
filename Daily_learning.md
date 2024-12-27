@@ -1,3 +1,5 @@
+#### 27-DEC-2024
+1. Started miniproject 7(open crime UK)
 #### 25-DEC-2024
 1. Started part 3 of miniproject 6(song)
 #### 24-DEC-2024
