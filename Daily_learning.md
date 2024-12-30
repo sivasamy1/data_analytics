@@ -1,3 +1,5 @@
+#### 29-DEC-2024
+1. Completed question 1 on miniproject 7(open crime UK)
 #### 27-DEC-2024
 1. Started miniproject 7(open crime UK)
 #### 25-DEC-2024
