@@ -1,3 +1,6 @@
+#### 3-JAN-2025
+1. Completed part 1 on miniprokect 7(oen crime UK)
+2. Completed question 1 on part 2 of miniproject 7(employee pay)
 #### 2-JAN-2025
 1. Completed upto question 7 on miniproject 7(open crime UK)
 #### 30-DEC-2024
