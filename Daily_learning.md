@@ -1,3 +1,7 @@
+#### 2-JAN-2025
+1. Completed upto question 7 on miniproject 7(open crime UK)
+#### 30-DEC-2024
+1. Completed question 2 and 3 on miniproject 7(open crime UK)
 #### 29-DEC-2024
 1. Completed question 1 on miniproject 7(open crime UK)
 #### 27-DEC-2024
