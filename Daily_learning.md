@@ -1,3 +1,6 @@
+#### 4-JAN-2024
+1. Learning about supervised learning
+2. Working on question 2 on part 2 of miniproject 7(credit card fraud)
 #### 3-JAN-2025
 1. Completed part 1 on miniprokect 7(oen crime UK)
 2. Completed question 1 on part 2 of miniproject 7(employee pay)
