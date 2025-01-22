@@ -1,4 +1,7 @@
-#### 4-JAN-2024
+#### 22-JAN-2025
+1. Completed 1st question in part 3 of miniproject 6(ebola)
+2. Completed 2nd question in part 3 of miniproject 6(ebola)
+#### 4-JAN-2025
 1. Learning about supervised learning
 2. Working on question 2 on part 2 of miniproject 7(credit card fraud)
 #### 3-JAN-2025
