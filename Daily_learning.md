@@ -1,3 +1,5 @@
+#### 01-FEB-2025
+1. Working on question 3 in part 3 of miniproject 6(ebola)
 #### 22-JAN-2025
 1. Completed 1st question in part 3 of miniproject 6(ebola)
 2. Completed 2nd question in part 3 of miniproject 6(ebola)
