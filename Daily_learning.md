@@ -1,6 +1,6 @@
 #### 05-FEB-2025
 1. Completed miniproject 6(ebola)
-2. completed miniproject 7(credit card fraud)
+2. Completed miniproject 7(credit card fraud)
 #### 01-FEB-2025
 1. Working on question 3 in part 3 of miniproject 6(ebola)
 #### 22-JAN-2025
