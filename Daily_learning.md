@@ -1,3 +1,8 @@
+#### 06-FEB-2025
+1. Completed question 1 in part 1 of miniproject 8(artifacts)
+2. Completed question 2 in part 1 of miniproject 8(artifacts)
+3. Completed question 3 in part 1 of miniproject 8(artifacts)
+4. 
 #### 05-FEB-2025
 1. Completed miniproject 6(ebola)
 2. Completed miniproject 7(credit card fraud)
