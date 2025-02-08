@@ -1,3 +1,6 @@
+#### 08-FEB-2025
+1. Completed part 2 of miniproject 8(artifacts)
+2. Completed miniproject 8(artifacts)
 #### 07-FEB-2025
 1. Completed question 9 in part 1 of miniproject 8(artifacts)
 2. Completed question 10 in part 1 of miniproject 8(artifacts)
