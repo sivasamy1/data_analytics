@@ -1,3 +1,6 @@
+#### 09-FEB-2025
+1. Started working on miniproject 9(FBI crime)
+2. Completed question 1 of miniproject 9(FBI crime)
 #### 08-FEB-2025
 1. Completed part 2 of miniproject 8(artifacts)
 2. Completed miniproject 8(artifacts)
