@@ -1,3 +1,5 @@
+#### 17-FEB-2025
+1. Completed question 2 in part 2 of miniproject 9(credit card fraud)
 #### 15-FEB-2025
 1. Completed question 3 of miniproject 9(FBI crime)
 2. Completed question 4 of miniproject 9(FBI crime)
