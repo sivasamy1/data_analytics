@@ -1,3 +1,16 @@
+#### 20-FEB-2025
+1. Completed question 6 of miniproject 10(World Economy)
+2. Completed question 7 of miniproject 10(World Economy)
+3. Completed question 8 of miniproject 10(World Economy)
+4. Completed question 9 of miniproject 10(World Economy)
+5. Completed part 2 of miniproject 10(World Economy)
+6. Completed miniproject 10(World Economy)
+#### 19-FEB-2025
+1. Completed question 1 of miniproject 10(World Economy)
+2. Completed question 2 of miniproject 10(World Economy)
+3. Completed question 3 of miniproject 10(World Economy)
+4. Completed question 4 of miniproject 10(World Economy)
+5. Completed question 5 of miniproject 10(World Economy)
 #### 17-FEB-2025
 1. Completed question 2 in part 2 of miniproject 9(credit card fraud)
 #### 15-FEB-2025
