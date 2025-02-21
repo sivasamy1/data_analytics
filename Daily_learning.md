@@ -1,3 +1,7 @@
+#### 21-FEB-2025
+1. Completed part 2 of miniproject 9(FBI crime)
+2. Completed miniproject 9(FBI crime)
+
 #### 20-FEB-2025
 1. Completed question 6 of miniproject 10(World Economy)
 2. Completed question 7 of miniproject 10(World Economy)
