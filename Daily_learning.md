@@ -1,3 +1,5 @@
+#### 22-FEB-2025
+1. Completed miniproject 13(Parsing JSON and persist as a CSV file)
 #### 21-FEB-2025
 1. Completed part 2 of miniproject 9(FBI crime)
 2. Completed miniproject 9(FBI crime)
