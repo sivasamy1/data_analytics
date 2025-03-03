@@ -1,4 +1,6 @@
-#### 28-FEB-2-25
+#### 03-MAR-25
+1. Cleaned the repository from having multiple files
+#### 28-FEB-25
 1. Completed miniproject 11(reddit)
 #### 22-FEB-2025
 1. Completed miniproject 13(Parsing JSON and persist as a CSV file)
