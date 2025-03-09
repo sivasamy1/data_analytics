@@ -1,3 +1,11 @@
+#### 08-MAR-25
+1. Learning LaTeX.
+#### 06-MAR-25
+1. Learning LaTeX.
+#### 05-MAR-25
+1. Learning LaTeX.
+#### 04-MAR-25
+1. Learning LaTeX.
 #### 03-MAR-25
 1. Cleaned the repository from having multiple files
 #### 28-FEB-25
