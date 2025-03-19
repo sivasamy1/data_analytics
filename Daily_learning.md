@@ -1,3 +1,10 @@
+#### 19-MAR-25
+1. Learning LaTeX tutorial 9.
+2. Completed LaTeX tutorials.
+#### 17-MAR-25
+1. Learning LaTeX tutorial 8.
+#### 15-MAR-25
+1. Learning LaTeX tutorial 7.
 #### 14-MAR-25
 1. Learning LaTeX tutorial 6.
 #### 09-MAR-25
