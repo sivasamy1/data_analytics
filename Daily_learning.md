@@ -1,3 +1,18 @@
+#### 01-APR-25
+1. Recording miniproject 2 (covid) observations in overleaf.
+#### 31-MAR-25
+1. Recording miniproject 1 (powerlifting) observations in overleaf.
+2. Completed miniproject 1 observation in overleaf.
+#### 29-MAR-25
+1. Recording miniproject 1 (powerlifting) observations in overleaf.
+#### 26-MAR-25
+1. Recording miniproject 1 (powerlifting) observations in overleaf.
+#### 24-MAR-25
+1. Recording miniproject 1 (powerlifting) observations in overleaf.
+#### 23-MAR-25
+1. Recording miniproject 1 (powerlifting) observations in overleaf.
+#### 21-MAR-25
+1. Recording miniproject observations in overleaf.
 #### 19-MAR-25
 1. Learning LaTeX tutorial 9.
 2. Completed LaTeX tutorials.
