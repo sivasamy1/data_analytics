@@ -1,3 +1,6 @@
+#### 03-APR-25
+1. Recording miniproject 2 (covid) observations in overleaf.
+2. Completed recording miniproject 2 (covid) observations in overleaf.
 #### 02-APR-25
 1. Recording miniproject 2 (covid) observations in overleaf.
 #### 01-APR-25
