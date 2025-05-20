@@ -1,3 +1,5 @@
+#### 14-MAY-25
+1. Started to look into pandas
 #### 13-MAY-25
 1. Revisiting miniprojects to brush up.
 #### 05-APR-25
